@@ -1,7 +1,9 @@
 (function() {
   window.HauserAppSettings = {
-    apiBaseUrl: "http://hauser-dev.herokuapp.com/api/business/v1",    
-    imagesCdnBaseUrl: "http://hauser-dev.herokuapp.com/images",
+    apiBaseUrl: "http://hauser-staging.herokuapp.com/api/business/v1",    
+    imagesCdnBaseUrl: "http://hauser-staging.herokuapp.com/images",
+    // facebookAppId: "1430326673949319",
+    // facebookAppName: "HauserBizStag",
     rootUrlState: "menu.feed",
     unauthorizedFallbackUrlState: "landing.signin"
     
